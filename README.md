@@ -13,6 +13,39 @@ Tradefeeds subscription packages are developed in such a way to serve all custom
  	<li><strong>Email link</strong></li>
 </ul>
 
+<h2>Documentation</h2>
+On the <a href="https://tradefeeds.com/api-documentation/" rel="nofollow">documentation page</a> you can find examples of API outputs and inputs, description of response objects and usage of filtering parameters. We provide SDKs for Javascript, JQuery, VueJS, Angular, JAVA, PHP, NodeJS, Python, Go, Ruby, C#, R, Strest, Rust, Swift and Scala. Below you can check the data output for the stock market index of Brazil. 
+
+https://data.tradefeeds.com/api/v1/stock_index?key=API-KEY&country=brazil
+
+    "status": {
+        "code": 200,
+        "message": "OK",
+        "details": ""
+    },
+    "result": {
+        "output": [
+            {
+                "region": "america",
+                "country": "brazil",
+                "benchmark": "ibovespa",
+                "price": "110243",
+                "daypricechange": "2,918",
+                "daychange": "-2.58%",
+                "weekchange": "-2.94%",
+                "monthchange": "-2.98%",
+                "yearchange": "7.09%",
+                "date": "2022:11:16"
+            }
+        ]
+
+
+
+
+
+
+
+
 <h2>Customer support</h2>
 In case that you encounter a data issue or you want to have more features added to the API, please contact us at support@tradefeeds.com.
  
